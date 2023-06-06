@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8"/>
+    <!--link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"--->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css"> 
+    <title>Pharmacy Website</title>
+
+  </head>
+
+  <body>
+
+    <nav>
+      <!----Drop down Menu------> 
+         <div class="container">
+           <div class="nav-links">
+             <a href="index.html">Home</a>
+             <a href="aboutus.html">About Us</a>
+             <a href="contact_us.html">Contact Us</a>
+             <a href="products.html">Products</a>
+             <a href="services.html">Services</a>
+           </div>
+   
+         <div class="search-bar">
+           <form>
+             <input type="text" placeholder="Search">
+             <button type="submit">Search</button> 
+           </form>
+         </div>
+       </div>
+       </nav>
+  
+    
+    <!-----Slidshow 1----->
+
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1/3</div>
+          <img src="iron.jpg" style="width: 100%">
+          <div class="text">Pics 1</div>
+        </div>
+
+      <!----SLideshow 2----->
+
+      <div class="mySlides fade">
+        <div class="numbertext">2/3</div>
+          <img src="calcium.jpg" style="width: 100%">
+        <div class="text">Pics 2</div>
+      </div>
+
+        <!----Slideshow 3---->
+
+      <div class="mySlides fade">
+        <div class="numbertext">3/3</div>
+          <img src="optibac.jpg" style="width: 100%">
+        <div class="text">Pics 3</div>
+      </div>
+
+      <!---Onlcick side bar---->
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+  
+    <br>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentslide(1)"></span>
+      <span class="dot" onclick="currentslide(2)"></span>
+      <span class="dot" onclick="currentslide(3)"></span>
+    </div>
+
+    <br>
+    <br>
+            <div>
+              <h1>Login</h1>
+            </div>
+
+            <div class="container">
+              <button class="button" onclick="myFunction_2()">Login</button>
+            </div>
+
+            <div class="container">
+              <button class="button" onclick="myFunction_3()">Sign Up</button>
+            </div>
+
+               <form action="signup.php" method="POST">
+                <div>
+                   <label for="firstname">First Name</label>
+                   <input type="text" id="firstname" name="firstname" required>
+                 </div>
+
+                 <div>
+                  <label for="lastname">Last Name</label>
+                  <input type="text" id="lastname" name="lastname">
+                </div>
+
+                <div>
+                  <label for="email">Email</label>
+                  <input type="text" id="email" name="email">
+                </div>
+
+                <div>
+                  <label for="password">Password</label>
+                  <input type="text" id="password" name="password">
+                </div>
+
+                <div>
+                  <label for="password-confirmation">Repeat password</label>
+                  <input type="text" id="password_confirmation" name="password_confirmation">
+                </div>
+
+                <div class="remember">
+                   <label for=""><input type="checkbox">Remember Me</label>
+                </div>
+
+                <button input="submit">Login</button>
+               </form>
+
+            <div class="panel-footern text-right">
+
+              <small>&copy; Ritika Gupta</small>
+            </div>
+           </div>
+      </div>
+    </div>
+  </body>
+
+  <!---This is a javascript file for my slide show---->
+  <script src="script.js"></script>
+
+</html> 
