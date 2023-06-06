@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style3.css">
+
+    <title>Pharmacy Website</title>
+  </head>
+
+  <body>
+
+    <nav>
+      <!----Drop down Menu------> 
+         <div class="container">
+           <div class="nav-links">
+             <a href="index3.html">Home</a>
+             <a href="aboutus.html">About Us</a>
+             <a href="contact_us.html">Contact Us</a>
+             <a href="products.html">Products</a>
+             <a href="services.html">Services</a>
+           </div>
+
+        <div class="search-bar">
+        <form>
+          <input type="text" placeholder="Search">
+          <button type="submit">Search</button> 
+        </form>
+      </div>
+    </div>
+  </nav>
+          
+  <h2>Products</h2>
+
+    <div class="column">
+                  <div class="up">
+                    <img src="images/reviveactive.jfif" alt="Reviveactive" width="300" height="300">
+                    <figcaption>Revive Active</figcaption>
+                    <figcaption>Cost: £10 </figcaption>
+                    <p id="inStock"></p>
+                    <button class ="img-button" onclick="myFunction_1()">Order Now</button>
+                    <div class="down"><button id="subtract1" onclick="subtractvalue()">-</button></div>
+                    <div class="down"><p id="counter1" ></p></div>
+                    <div class="down"><button id="add1" onclick="addvalue()">+</button></div>
+                  </div>
+          </div>
+
+          <div class="column">
+                <div class="up">
+                  <img src="images/menoprime.jfif" alt="MenoPrime" width="300" height="300">
+                  <figcaption>Menoprime</figcaption>
+                  <figcaption>Cost: £15</figcaption>
+                  <p id="inStock"></p>
+                  <button class ="img-button" onclick="myFunction_1()">Order Now</button>
+                  <div class="down"><button id="subtract2" onclick="subtractvalue_2()">-</button></div>
+                  <div class="down"><p id="counter_2"></p></div>
+                  <div class="down"><button id="add2" onclick="addvalue_2()">+</button></div>
+                </div>
+          </div>
+
+          <div class="column">
+                <div class="up">
+                  <img src="images/optibac.jpg" alt="OptiBac" width="300" height="300">
+                  <figcaption>Optibac </figcaption>
+                  <figcaption>Cost: £10</figcaption>
+                  <p id="inStock"></p>
+                  <button class ="img-button" onclick="myFunction_1()">Order Now</button>
+                  <div class="down"><button id="subtract_3" onclick="subtractvalue_3()">-</button></div>
+                  <div class="down"><p id="counter_3" ></p></div>
+                  <div class="down"><button id="add_3" onclick="addvalue_3()">+</button></div>
+                </div>
+          </div>
+
+          <div class="column">
+                <div class="up">
+                  <img src="images/acetom.jpg" alt="Acetom" width="300" height="300">
+                  <figcaption>Acetom</figcaption>
+                  <figcaption>Cost: £10</figcaption>
+                  <p id="inStock"></p>
+                  <button class ="img-button" onclick="myFunction_1()">Order Now</button>
+                  <div class="down"><button id="subtract_4" onclick="subtractvalue_4()">-</button></div>
+                  <div class="down"><p id="counter_4"></p></div>
+                  <div class="down"><button id="add_4" onclick="addvalue_4()">+</button></div>
+                </div>
+          </div>
+
+          <div class="column">
+                <div class="up">
+                  <img src="images/strepsils.jfif" alt="Strepsils" width="300" height="300">
+                  <figcaption>Strepsils</figcaption>
+                  <figcaption>Cost: £12.50</figcaption>
+                  <p id="inStock"></p>
+                  <button class ="img-button" onclick="myFunction_1()">Order Now</button>
+                  <div class="down"><button id="subtract_5" onclick="subtractvalue_5()">-</button></div>
+                  <div class="down"><p id="counter_5" ></p></div>
+                  <div class="down"><button id="add_5" onclick="addvalue_5()">+</button></div>
+                </div>
+          </div>
+
+          <div class="column">
+                <div class="up">
+                  <img src="images/volateran.jfif" alt="Volateran" width="300" height="300">
+                  <figcaption>Volateran</figcaption>
+                  <figcaption>Cost: £8</figcaption>
+                  <p id="inStock"></p>
+                  <button class ="img-button" onclick="myFunction_1()">Order Now</button>
+                  <div class="down"><button id="subtract_6" onclick="subtractvalue_6()">-</button></div>
+                  <div class="down"><p id="counter_6" ></p></div>
+                  <div class="down"></div><button id="add_6" onclick="addvalue_6()">+</button></div>
+          </div>
+          
+            <div class="column">
+                <div class="up">
+                  <img src="images/volateran.jfif" alt="Volateran" width="300" height="300">
+                  <figcaption>Volateran</figcaption>
+                  <figcaption>Cost: £10</figcaption>
+                  <p id="inStock"></p>
+                  <button class ="img-button" onclick="myFunction_1()">Order Now</button>
+                  <div class="down"><button id="subtract_7" onclick="subtractvalue_7()">-</button>
+                  <div class="down"><p id="counter_7" ></p></div>
+                  <div class="down"><button id="add_7" onclick="addvalue_7()">+</button></div>
+                </div>
+            </div>
+            </div>
+
+            <div class="column">
+                <div class="up">
+                  <img src="images/alflorex.jfif" alt="Alforex" width="300" height="300">
+                  <figcaption>Alforex</figcaption>
+                  <figcaption>Cost:£12</figcaption>
+                  <p id="inStock"></p>
+                  <button class ="img-button" onclick="myFunction_1()">Order Now</button>
+                  <div class="down"><button id="subtract_8" onclick="subtractvalue_8()">-</button></div>
+                  <div class="down"><p id="counter_8" ></p></div>
+                  <div class="down"><button id="add_8" onclick="addvalue_8()">+</button></div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="up">
+                  <img src="images/viagrajfif.jfif" alt="Viagra" width="300" height="300">
+                  <figcaption>Viagrax</figcaption>
+                  <figcaption>Cost: £8</figcaption>
+                  <p id="inStock"></p>
+                  <button class ="img-button" onclick="myFunction_1()">Order Now</button>
+                  <div class="down"><button id="subtract_9" onclick="subtractvalue_9()">-</button></div>
+                  <div class="down"><p id="counter_9" ></p></div>
+                  <div class="down"><button id="add_9" onclick="addvalue_9()">+</button></div>
+                </div>
+          </div> 
+
+</body>
+  
+  <!---This is script.js file for my product buttons----->
+  <script src="js/script.js"></script>
+
+</html> 

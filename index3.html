@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!---Sudent Name: Ritika Gupta (C21368541)--->
+
+<html lang="en">
+  <head>
+    <title>Pharmacy Website</title>
+    <link rel="stylesheet" href="css/style3.css"> 
+  </head>
+
+  <body>
+  <nav>
+   <!----Drop down Menu------> 
+      <div class="container">
+        <div class="nav-links">
+          <a href="index3.html">Home</a>
+          <a href="aboutus.html">About Us</a>
+          <a href="contact_us.html">Contact Us</a>
+          <a href="products.html">Products</a>
+          <a href="services.html">Services</a>
+        </div>
+
+      <div class="search-bar">
+        <form>
+          <input type="text" id="searchInput" placeholder="Search">
+          <button id="searchButton">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+    <!-----Slidshow 1----->
+
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1/3</div>
+            <img src="images/iron.jpg" style="width: 100%">
+            <div class="text">Pics 1</div>
+          </div>
+  
+        <!----SLideshow 2----->
+  
+        <div class="mySlides fade">
+          <div class="numbertext">2/3</div>
+            <img src="images/calcium.jpg" style="width: 100%">
+          <div class="text">Pics 2</div>
+        </div>
+  
+          <!----Slideshow 3---->
+  
+        <div class="mySlides fade">
+          <div class="numbertext">3/3</div>
+            <img src="images/optibac.jpg" style="width: 100%">
+          <div class="text">Pics 3</div>
+        </div>
+  
+        <!---Onlcick side bar---->
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+  
+      </div>
+    
+      <br>
+      <br>
+  
+      <div style="text-align:center">
+        <span class="dot" onclick="currentslide(1)"></span>
+        <span class="dot" onclick="currentslide(2)"></span>
+        <span class="dot" onclick="currentslide(3)"></span>
+      </div>
+  
+      <br>
+      <br>
+      
+      <!---This is div class button container for my login and signup page---->
+<div class="button-container">
+  <button class="button" onclick="loginPage()">Login</button>
+  <button class="button" onclick="signupPage()">Sign Up</button>
+</div>
+
+      <script src="js/script3.js"></script>
+   </body>
+</html>
